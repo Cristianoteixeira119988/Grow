@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_grow_app">
+
+    <fragment
+        android:id="@+id/nav_grow_app"
+        android:name="grow.plus.app.ui.Grow.GrowAppFragment"
+        android:label="@string/grow_plus"
+        tools:layout="@layout/fragment_grow_app" />
+
+    <fragment
+        android:id="@+id/nav_ods"
+        android:name="grow.plus.app.ui.Ods.OdsFragment"
+        android:label="@string/_17_ods"
+        tools:layout="@layout/fragment_ods" />
+
+    <fragment
+        android:id="@+id/nav_ajudar_o_planeta"
+        android:name="grow.plus.app.ui.AjudarOPlaneta.AjudarOPlanetaFragment"
+        android:label="@string/ajudar_o_planeta"
+        tools:layout="@layout/fragment_ajudar_o_planeta"/>
+    <fragment
+        android:id="@+id/nav_conta"
+        android:name="grow.plus.app.ui.Conta.fragment_conta"
+        android:label="@string/conta"
+        tools:layout="@layout/fragment_conta" />
+    <fragment
+        android:id="@+id/nav_highscores"
+        android:name="grow.plus.app.ui.HighScores.HighScores"
+        android:label="@string/highscores"
+        tools:layout="@layout/fragment_highscores" />
+    <fragment
+        android:id="@+id/nav_sobre"
+        android:name="grow.plus.app.ui.Sobre.fragment_sobre"
+        android:label="@string/sobre"
+        tools:layout="@layout/fragment_sobre" />
+</navigation>

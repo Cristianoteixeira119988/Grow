@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232A50"
+    android:backgroundTint="#232A50"
+    tools:context="grow.plus.app.PaginasIniciaisDosQuizzes.MostraPontuacaoQuizODS">
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="183dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/quizods"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView143"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/quiz_com_perguntas_sobre_os_17_ods_e_os_seus_objetivos"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView142"
+        app:layout_constraintStart_toStartOf="@+id/textView142"
+        app:layout_constraintTop_toBottomOf="@+id/textView142" />
+
+    <TextView
+        android:id="@+id/textView142"
+        android:layout_width="337dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/objetivos_de_desenvolvimento_sustent_vel"
+        android:textAlignment="center"
+        android:textColor="#54ECFF"
+        android:textColorHighlight="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25" />
+
+    <TextView
+        android:id="@+id/textViewHighScoreQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HighScore: 0"
+        android:textColor="#74E7F6"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662" />
+
+    <Button
+        android:id="@+id/buttonComecarQuiz"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/buttonazulclaro"
+        android:text="@string/come_ar"
+        android:textColor="#3E466E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewRetrocederQuiz"
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

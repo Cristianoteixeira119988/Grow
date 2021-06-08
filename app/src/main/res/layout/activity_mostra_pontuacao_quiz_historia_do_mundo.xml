@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272727"
+    tools:context="grow.plus.app.PaginasIniciaisDosQuizzes.MostraPontuacaoQuizHistoriaDoMundo">
+
+    <Button
+        android:id="@+id/buttonComecarQuizHistoriaDoMundo"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/buttoncinza"
+        android:text="@string/come_ar"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewHighScoreQuizHistoriaDoMundo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HighScore: 0"
+        android:textColor="#D8D8D8"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/quiz_sobre_a_hist_ria_do_mundo_gerras_descobrimentos_e_etc"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView63"
+        app:layout_constraintStart_toStartOf="@+id/textView63"
+        app:layout_constraintTop_toBottomOf="@+id/textView63" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="332dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/hist_ria_do_mundo"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView33" />
+
+    <ImageView
+        android:id="@+id/imageViewRetrocederQuizHistoriaDoMundo"
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="208dp"
+        android:layout_height="173dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/cavaleiropng"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

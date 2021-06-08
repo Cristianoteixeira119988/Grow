@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4c9f38"
+    tools:context="grow.plus.app.Quizzes.QuizBoaSaudeEBemEstar">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4c9f38"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#4c9f38">
+
+            <TextView
+                android:id="@+id/textViewTempoSaudeDeQualidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="30dp"
+                android:text="30"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewPerguntaSaudeDeQualidade"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="25dp"
+                android:gravity="center"
+                android:text="Pergunta"
+                android:textColor="#F1FFE1"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewTempoSaudeDeQualidade" />
+
+            <Button
+                android:id="@+id/buttonConfirmarSaudeDeQualidade"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/buttonazulbebeescuro"
+                android:text="Confirmar"
+                android:textColor="#D4FDCA"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/radioGroupSaudeDeQualidade" />
+
+            <TextView
+                android:id="@+id/textViewScoreSaudeDeQualidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="Score: 0"
+                android:textColor="#F8F8F8"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewPerguntaNrSaudeDeQualidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Pergunta: 1/x"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/textViewScoreSaudeDeQualidade"
+                app:layout_constraintTop_toBottomOf="@+id/textViewScoreSaudeDeQualidade" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupSaudeDeQualidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewPerguntaSaudeDeQualidade">
+
+                <RadioButton
+                    android:id="@+id/buttonOpcao1SaudeDeQualidade"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttaoverde"
+                    android:text="RadioButton"
+                    android:textColor="#043706"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/buttonOpcao2SaudeDeQualidade"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/buttaoverde"
+                    android:text="RadioButton"
+                    android:textColor="#043706"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/buttonOpcao3SaudeDeQualidade"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/buttaoverde"
+                    android:text="RadioButton"
+                    android:textColor="#043706"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/buttonOpcao4SaudeDeQualidade"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/buttaoverde"
+                    android:text="RadioButton"
+                    android:textColor="#043706"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

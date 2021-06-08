@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGround"
+    tools:context="grow.plus.app.ui.Grow.GrowAppFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/backGround">
+
+
+            <ImageView
+                android:id="@+id/QuizODS"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/quizodsbutton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+            <ImageView
+                android:id="@+id/QuizMonumentosFamosos"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/buttondois"
+                app:layout_constraintEnd_toEndOf="@+id/QuizODS"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/QuizODS"
+                app:layout_constraintTop_toBottomOf="@+id/QuizODS" />
+
+            <ImageView
+                android:id="@+id/QuizObejetivo1"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/quizobjetivo1"
+                app:layout_constraintEnd_toEndOf="@+id/QuizMonumentosFamosos"
+                app:layout_constraintStart_toStartOf="@+id/QuizMonumentosFamosos"
+                app:layout_constraintTop_toBottomOf="@+id/QuizMonumentosFamosos" />
+
+            <ImageView
+                android:id="@+id/QuizHistoria"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/quizhistoria"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.516"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/QuizObejetivo1" />
+
+            <ImageView
+                android:id="@+id/QuizBoaSaudeEBemEstar"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/quizboasaudebemestar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/QuizHistoria" />
+
+            <ImageView
+                android:id="@+id/QuizEstatuasFamosas"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/quizestatasfamosas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/QuizBoaSaudeEBemEstar" />
+
+            <ImageView
+                android:id="@+id/QuizEnergiaAcessivelELimpa"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="80dp"
+                android:src="@drawable/quizobjetivosete"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/QuizEstatuasFamosas" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="110dp"
+                android:text="@string/objetivos_de_desenvolvimento_sustent_vel"
+                android:textColor="#A1F0FA"
+                android:textColorHighlight="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/QuizODS"
+                app:layout_constraintTop_toTopOf="@+id/QuizODS" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="110dp"
+                android:text="@string/monumentos_famosos"
+                android:textColor="#4A4A4A"
+                android:textColorHighlight="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/QuizMonumentosFamosos"
+                app:layout_constraintStart_toStartOf="@+id/textView37"
+                app:layout_constraintTop_toTopOf="@+id/QuizMonumentosFamosos" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/objetivo_de_erradicar_a_pobreza"
+                android:textColor="#FFC3C3"
+                android:textColorHighlight="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textView41"
+                app:layout_constraintStart_toStartOf="@+id/textView41"
+                app:layout_constraintTop_toTopOf="@+id/QuizObejetivo1" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="120dp"
+                android:text="@string/hist_ria_do_mundo"
+                android:textColor="#AEAEAE"
+                android:textColorHighlight="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/QuizHistoria"
+                app:layout_constraintStart_toStartOf="@+id/textView50"
+                app:layout_constraintTop_toTopOf="@+id/QuizHistoria" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/objetivo_de_ter_boa_sa_de_e_bem_estar"
+                android:textColor="#E2FFE3"
+                android:textColorHighlight="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textView54"
+                app:layout_constraintStart_toStartOf="@+id/textView54"
+                app:layout_constraintTop_toTopOf="@+id/QuizBoaSaudeEBemEstar" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/est_tuas_famosas"
+                android:textColor="#2E4649"
+                android:textColorHighlight="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textView55"
+                app:layout_constraintStart_toStartOf="@+id/textView55"
+                app:layout_constraintTop_toTopOf="@+id/QuizEstatuasFamosas" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/objetivo_de_ter_energias_renov_veis_e_acess_veis"
+                android:textColor="#FFF8E2"
+                android:textColorHighlight="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textView57"
+                app:layout_constraintStart_toStartOf="@+id/textView41"
+                app:layout_constraintTop_toTopOf="@+id/QuizEnergiaAcessivelELimpa" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/quiz_com_perguntas_sobre_os_17_ods_e_os_seus_objetivos"
+                android:textColor="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="@+id/textView37"
+                app:layout_constraintStart_toStartOf="@+id/textView37"
+                app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/quiz_de_verdadeiro_e_falso_sobre_monumentos_famosos_ao_redor_do_mundo"
+                app:layout_constraintEnd_toEndOf="@+id/textView41"
+                app:layout_constraintStart_toStartOf="@+id/textView40"
+                app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/quiz_com_perguntas_sobre_o_primeiro_objetivo_dos_ods"
+                android:textColor="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="@+id/textView44"
+                app:layout_constraintStart_toStartOf="@+id/textView44"
+                app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/quiz_sobre_a_hist_ria_do_mundo_gerras_descobrimentos_e_etc"
+                android:textColor="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="@+id/textView54"
+                app:layout_constraintStart_toStartOf="@+id/textView51"
+                app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/quiz_com_perguntas_sobre_o_ter_eiro_objetivo_dos_ods"
+                android:textColor="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="@+id/textView53"
+                app:layout_constraintStart_toStartOf="@+id/textView53"
+                app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/quiz_sobre_est_tuas_famosas_existentes_ao_redor_do_mundo"
+                android:textColor="#3C6D73"
+                app:layout_constraintEnd_toEndOf="@+id/textView56"
+                app:layout_constraintStart_toStartOf="@+id/textView53"
+                app:layout_constraintTop_toBottomOf="@+id/textView57" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/quiz_com_perguntas_sobre_o_s_timo_objetivo_dos_ods"
+                android:textColor="#FFFFFE"
+                app:layout_constraintEnd_toEndOf="@+id/textView58"
+                app:layout_constraintStart_toStartOf="@+id/textView53"
+                app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="98dp"
+                android:layout_height="124dp"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/quizods"
+                app:layout_constraintEnd_toEndOf="@+id/QuizODS"
+                app:layout_constraintTop_toTopOf="@+id/QuizODS" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="101dp"
+                android:layout_height="113dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/monuments"
+                app:layout_constraintEnd_toEndOf="@+id/QuizMonumentosFamosos"
+                app:layout_constraintTop_toTopOf="@+id/QuizMonumentosFamosos" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/top"
+                android:text="@string/selecione_um_quiz_para_come_ar_a_aprender"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="110dp"
+                android:layout_height="104dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/um"
+                app:layout_constraintEnd_toEndOf="@+id/QuizObejetivo1"
+                app:layout_constraintTop_toTopOf="@+id/QuizObejetivo1" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="115dp"
+                android:layout_height="116dp"
+                android:layout_marginTop="7dp"
+                android:src="@drawable/cavaleiropng"
+                app:layout_constraintEnd_toEndOf="@+id/QuizHistoria"
+                app:layout_constraintTop_toTopOf="@+id/QuizHistoria" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="124dp"
+                android:layout_height="119dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/tres"
+                app:layout_constraintEnd_toEndOf="@+id/QuizBoaSaudeEBemEstar"
+                app:layout_constraintTop_toTopOf="@+id/QuizBoaSaudeEBemEstar" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="101dp"
+                android:layout_height="129dp"
+                android:src="@drawable/estatuadaliberdadepgn"
+                app:layout_constraintEnd_toEndOf="@+id/QuizEstatuasFamosas"
+                app:layout_constraintTop_toTopOf="@+id/QuizEstatuasFamosas" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="92dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/ic_quiz"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="116dp"
+                android:layout_height="124dp"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/setequiz"
+                app:layout_constraintBottom_toBottomOf="@+id/QuizEnergiaAcessivelELimpa"
+                app:layout_constraintEnd_toEndOf="@+id/QuizEnergiaAcessivelELimpa"
+                app:layout_constraintTop_toTopOf="@+id/QuizEnergiaAcessivelELimpa" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

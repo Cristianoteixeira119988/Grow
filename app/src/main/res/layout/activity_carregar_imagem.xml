@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarregarImagem">
+
+    <ImageView
+        android:id="@+id/imageViewRetrocederCarregarImagem"
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewcarregar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="70dp"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView70">
+
+        <ImageView
+            android:id="@+id/imageDePerfilcarregar"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/avatar" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/buttonCarregarImagem"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttoncarregarimagem"
+        android:text="@string/carregar_imagem_de_perfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardViewcarregar" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/selecionar_imagem_de_perfil"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewRetrocederCarregarImagem" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="59dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="@+id/cardViewcarregar"
+        app:layout_constraintTop_toTopOf="@+id/cardViewcarregar"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <Button
+        android:id="@+id/buttonConfirmarCarregarImagem"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/button"
+        android:text="@string/concluir"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="grow.plus.app.Quizzes.QuizObjetivoErradicarPobreza">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E5243B"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E5243B">
+
+            <Button
+                android:id="@+id/buttonConfirmarErradicarPobreza"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/buttonvermelhoclaro"
+                android:text="Confirmar"
+                android:textColor="#E5243B"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/radioGroupErradicarPobreza" />
+
+            <TextView
+                android:id="@+id/textViewTempoErradicarPobreza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="30dp"
+                android:text="30"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewPerguntaNrErradicarPobreza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Pergunta: 1/x"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/textViewScoreErradicarPobreza"
+                app:layout_constraintTop_toBottomOf="@+id/textViewScoreErradicarPobreza" />
+
+            <TextView
+                android:id="@+id/textViewScoreErradicarPobreza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="Score: 0"
+                android:textColor="#F8F8F8"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewPerguntaErradicarPobreza"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="25dp"
+                android:gravity="center"
+                android:text="Pergunta"
+                android:textColor="#FFEDEC"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewTempoErradicarPobreza" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupErradicarPobreza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewPerguntaErradicarPobreza">
+
+                <RadioButton
+                    android:id="@+id/radioButtonOpcao1ErradicarPobreza"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonvermelhoclarordio"
+                    android:text="RadioButton"
+                    android:textColor="#590303"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonOpcao2ErradicarPobreza"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/buttonvermelhoclarordio"
+                    android:text="RadioButton"
+                    android:textColor="#590303"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonOpcao3ErradicarPobreza"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/buttonvermelhoclarordio"
+                    android:text="RadioButton"
+                    android:textColor="#590303"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonOpcao4ErradicarPobreza"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/buttonvermelhoclarordio"
+                    android:text="RadioButton"
+                    android:textColor="#590303"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

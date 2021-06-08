@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="grow.plus.app.ui.AjudarOPlaneta.AjudarOPlanetaFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cardview_light_background">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/topajudaroplaneta"
+                android:text="@string/todos_podemos_contribuir_com_pequenos_gestos_no_dia_a_dia_para_proteger_o_ambiente_em_casa_na_escola_na_tua_terra_h_com_certeza_muito_que_podes_fazer_pelo_planeta"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/ajudaroplanetaverdeclaro"
+                android:text="@string/_1_plante_pelo_menos_uma_rvore"
+                android:textColor="#675E45"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/ajudaroplanetaverdeescuro"
+                android:text="@string/_2_cuide_do_seu_pr_prio_lixo"
+                android:textColor="#3D5E3E"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/ajudaroplaneta3"
+                android:text="@string/_3_evite_o_desperd_cio"
+                android:textColor="#616161"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/ajudaroplanetarosa"
+                android:text="@string/_4_pense_e_repense_antes_de_comprar"
+                android:textColor="#6E3749"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/ajudaroplanetacao"
+                android:text="@string/_5_cuide_das_pessoas_e_dos_animais"
+                android:textColor="#654730"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/ajudaroplaneta6"
+                android:text="@string/_6_vote_consciente_acompanhe_e_cobre_a_es_dos_candidatos"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/ajudaroplaneta7"
+                android:text="@string/_7_economize_gua_e_energia"
+                android:textColor="#616161"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/ajudaroplanetaverdeclaro"
+                android:text="@string/_8_cuide_do_local_onde_voc_mora"
+                android:textColor="#01223C"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/ajudaroplanetaciza"
+                android:text="@string/_9_use_os_meios_de_transporte_de_maneira_consciente"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/ajudaroplanetacao"
+                android:text="@string/_10_passe_adiante"
+                android:textColor="#614633"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="89dp"
+                android:layout_height="205dp"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/arvore"
+                app:layout_constraintBottom_toBottomOf="@+id/textView15"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView15" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/talvez_voc_j_tenha_feito_isso_uma_ou_dezenas_de_vezes_mas_nunca_demais_o_plantio_pode_ser_feito_em_uma_rea_que_precisa_ser_recuperada_ou_em_seu_pr_prio_quintal_uma_ideia_interessante_plantar_uma_rvore_frut_fera_al_m_de_ter_um_alimento_fresco_ao_seu_alcance_voc_tamb_m_atrair_muitos_p_ssaros_e_ouvir_o_canto_das_aves_sempre_faz_bem"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView13"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="130dp"
+                android:text="@string/d_a_destina_o_adequada_para_os_res_duos_que_voc_produzir_mesmo_que_n_o_exista_um_sistema_p_blico_de_coleta_seletiva_na_sua_regi_o_separe_seu_lixo_e_leve_os_recicl_veis_a_uma_cooperativa_ou_centro_de_coleta_a_parte_org_nica_pode_ser_transformada_em_adubo_para_ajudar_a_sua_rvore_ou_horta_a_crescerem_com_mais_sa_de"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/um_dos_grandes_males_do_mundo_o_desperd_cio_em_termos_de_alimento_aproximadamente_1_3_de_tudo_o_que_produzido_vai_parar_no_lixo_mas_para_ter_um_mundo_melhor_tamb_m_importante_atentar_ao_desperd_cio_de_dinheiro_por_exemplo_planeje_os_seus_gastos_isso_evitar_problemas_nas_finan_as_pessoais_e_por_mais_incr_vel_que_pare_a_tamb_m_impactar_a_economia_nacional"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView15"
+                app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="150dp"
+                android:text="@string/o_padr_o_de_consumo_imposto_principalmente_pela_m_dia_diz_que_as_pessoas_s_o_definidas_por_seus_bens_no_entanto_essa_cultura_de_comprar_desenfreadamente_o_jeito_mais_f_cil_de_destruir_o_meio_ambiente_para_fabricar_uma_cal_a_jeans_s_o_necess_rios_at_15_mil_litros_de_gua_fora_outras_mat_rias_primas_tudo_o_que_compramos_reflete_em_algum_tipo_de_impacto_ambiental_portanto_compre_o_necess_rio"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/fa_a_o_bem_a_quem_est_pr_ximo_de_voc_independente_de_quem_seja_as_boas_a_es_s_o_contagiosas_imagine_como_o_mundo_seria_melhor_com_todas_as_pessoas_trocando_gentilezas_cuide_tamb_m_dos_animais_se_est_ao_seu_alcance_tomar_conta_de_um_animal_dom_stico_fa_a_isso_com_carinho_se_voc_pode_ajudar_a_preservar_uma_rea_ou_apoiar_causas_de_defesa_dos_animais_fa_a_tamb_m_o_mais_importante_de_tudo_a_inten_o_e_a_vontade_de_fazer_o_bem_sem_olhar_a_quem"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView17"
+                app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="150dp"
+                android:text="@string/essa_uma_das_dicas_mais_importantes_a_democracia_permite_que_a_popula_o_eleja_seus_representantes_aproveite_esta_oportunidade_para_escolher_candidatos_que_tenham_valores_respeit_veis_e_projetos_que_sejam_usados_realmente_em_benef_cios_da_sociedade_ap_s_as_elei_es_acompanhe_o_que_est_sendo_feito_e_cobre_se_for_necess_rio_isso_vale_para_todos_os_cargos_pol_ticos"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/atente_ao_consumo_desses_bens_na_sua_casa_sempre_existe_um_cuidado_extra_que_pode_ser_feito_para_evitar_o_desperd_cio_algumas_sugest_es_s_o_apague_sempre_as_luzes_de_ambientes_vazios_diminua_o_tempo_no_banho_escolha_eletrodom_sticos_e_l_mpadas_eficientes_evite_o_uso_de_ar_condicionado_lave_e_passe_toda_a_roupa_de_uma_s_vez"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView19"
+                app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="150dp"
+                android:text="@string/existe_uma_pra_a_no_seu_bairro_ajude_a_preserv_la_participe_dos_grupos_comunit_rios_da_sua_regi_o_para_entender_como_poss_vel_melhor_la_e_como_voc_pode_fazer_parte_destas_mudan_as_al_m_de_tornar_o_bairro_mais_agrad_vel_de_se_viver_e_permitir_novas_amizades_isso_pode_valorizar_ainda_mais_o_seu_pr_prio_im_vel"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/d_prefer_ncia_ao_transporte_coletivo_ou_alternativos_como_a_bicicleta_se_isso_n_o_for_poss_vel_opte_pela_carona_veja_se_entre_seus_vizinhos_existe_algu_m_que_trabalhe_perto_do_voc_ou_em_algum_local_no_meio_de_seu_trajeto_essas_sugest_es_ajudam_a_reduzir_as_emiss_es_de_gases_de_efeito_estufa_em_consequ_ncia_do_transporte_e_ainda_diminuem_os_gastos_no_fim_do_m_s"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView21"
+                app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/se_voc_j_tem_feito_todas_essas_coisas_passe_as_ideias_adiante_ensine_as_novas_gera_es_a_terem_esses_mesmos_valores_e_acima_de_tudo_d_o_exemplo_seja_a_mudan_a_que_voc_quer_ver_no_mundo_como_j_dizia_mahatma_gandhi"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="110dp"
+                android:layout_height="180dp"
+                android:src="@drawable/lixo2"
+                app:layout_constraintBottom_toBottomOf="@+id/textView17"
+                app:layout_constraintStart_toEndOf="@+id/textView17"
+                app:layout_constraintTop_toTopOf="@+id/textView17" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="118dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/lixo"
+                app:layout_constraintBottom_toBottomOf="@+id/textView19"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView19" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="135dp"
+                android:layout_height="150dp"
+                android:src="@drawable/compras"
+                app:layout_constraintBottom_toBottomOf="@+id/textView21"
+                app:layout_constraintStart_toEndOf="@+id/textView21"
+                app:layout_constraintTop_toTopOf="@+id/textView21" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="113dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/cao"
+                app:layout_constraintBottom_toBottomOf="@+id/textView23"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView23" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="142dp"
+                android:layout_height="150dp"
+                android:src="@drawable/votar"
+                app:layout_constraintBottom_toBottomOf="@+id/textView25"
+                app:layout_constraintStart_toEndOf="@+id/textView25"
+                app:layout_constraintTop_toTopOf="@+id/textView25" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="122dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/agua_e_energia"
+                app:layout_constraintBottom_toBottomOf="@+id/textView27"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView27" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="137dp"
+                android:layout_height="150dp"
+                android:src="@drawable/jardim"
+                app:layout_constraintBottom_toBottomOf="@+id/textView29"
+                app:layout_constraintStart_toEndOf="@+id/textView29"
+                app:layout_constraintTop_toTopOf="@+id/textView29" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="142dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/bus"
+                app:layout_constraintBottom_toBottomOf="@+id/textView31"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView31" />
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/ic_terra"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

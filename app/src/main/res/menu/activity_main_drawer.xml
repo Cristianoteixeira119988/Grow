@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_grow_app"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="@string/grow_plus" />
+        <item
+            android:id="@+id/nav_conta"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="@string/conta" />
+        <item
+            android:id="@+id/nav_ods"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/_17_ods" />
+        <item
+            android:id="@+id/nav_ajudar_o_planeta"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="@string/ajudar_o_planeta" />
+        <item
+            android:id="@+id/nav_highscores"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="@string/highscores" />
+
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/sobre" />
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context="grow.plus.app.ui.HighScores.HighScores">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/backGround">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:src="@drawable/top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewHighScoreQuizOds"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/quizodsbutton"
+                android:text="@string/quiz_ods_0"
+                android:textAlignment="center"
+                android:textColor="#A1F0FA"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewHighScoreQuizMonumentos"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/buttondois"
+                android:text="@string/quiz_monumentos_famosos_0"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textViewHighScoreQuizOds"
+                app:layout_constraintStart_toStartOf="@+id/textViewHighScoreQuizOds"
+                app:layout_constraintTop_toBottomOf="@+id/textViewHighScoreQuizOds" />
+
+            <TextView
+                android:id="@+id/textViewHighScoreQuizErradicarPobreza"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/quizobjetivo1"
+                android:text="@string/quiz_ods_erradicar_a_pobreza_0"
+                android:textAlignment="center"
+                android:textColor="#FFC3C3"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textViewHighScoreQuizMonumentos"
+                app:layout_constraintStart_toStartOf="@+id/textViewHighScoreQuizOds"
+                app:layout_constraintTop_toBottomOf="@+id/textViewHighScoreQuizMonumentos" />
+
+            <TextView
+                android:id="@+id/textViewHighScoreQuizHistoriaDoMundo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/quizhistoria"
+                android:text="@string/quiz_hist_ria_do_mundo_0"
+                android:textAlignment="center"
+                android:textColor="#AEAEAE"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textViewHighScoreQuizErradicarPobreza"
+                app:layout_constraintStart_toStartOf="@+id/textViewHighScoreQuizOds"
+                app:layout_constraintTop_toBottomOf="@+id/textViewHighScoreQuizErradicarPobreza" />
+
+            <TextView
+                android:id="@+id/textViewHighScoreQuizBoaSaudeEBemEstar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/quizboasaudebemestar"
+                android:text="@string/quiz_ods_de_ter_boa_sa_de_e_bem_estar_0"
+                android:textAlignment="center"
+                android:textColor="#E2FFE3"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textViewHighScoreQuizHistoriaDoMundo"
+                app:layout_constraintStart_toStartOf="@+id/textViewHighScoreQuizOds"
+                app:layout_constraintTop_toBottomOf="@+id/textViewHighScoreQuizHistoriaDoMundo" />
+
+            <TextView
+                android:id="@+id/textViewHighScoreQuizEstatuasFamosas"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/quizestatasfamosas"
+                android:text="@string/quiz_est_tuas_famosas_0"
+                android:textAlignment="center"
+                android:textColor="#2E4649"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textViewHighScoreQuizBoaSaudeEBemEstar"
+                app:layout_constraintStart_toStartOf="@+id/textViewHighScoreQuizBoaSaudeEBemEstar"
+                app:layout_constraintTop_toBottomOf="@+id/textViewHighScoreQuizBoaSaudeEBemEstar" />
+
+            <TextView
+                android:id="@+id/textViewHighScoreQuizEnergiasRenovaveis"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/quizobjetivosete"
+                android:text="@string/quiz_energias_renovaveis_0"
+                android:textAlignment="center"
+                android:textColor="#FDFBE7"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textViewHighScoreQuizBoaSaudeEBemEstar"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textViewHighScoreQuizBoaSaudeEBemEstar"
+                app:layout_constraintTop_toBottomOf="@+id/textViewHighScoreQuizEstatuasFamosas" />
+
+            <Button
+                android:id="@+id/buttonApagarTodos"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/button"
+                android:text="@string/apagar_todos"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewHighScoreQuizEnergiasRenovaveis" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="grow.plus.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CarregarImagem"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Quizzes.QuizEnergiasRenovaveis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PaginasIniciaisDosQuizzes.MostraPontuacao_quiz_energias_renovaveis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Quizzes.QuizEstatuas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PaginasIniciaisDosQuizzes.MostraPontuacaoQuizEstatuas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Quizzes.QuizBoaSaudeEBemEstar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PaginasIniciaisDosQuizzes.MostraPontuacaoQuizBoaSaudeEBemEstar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Quizzes.QuizHistoriaDoMundo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PaginasIniciaisDosQuizzes.MostraPontuacaoQuizHistoriaDoMundo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Quizzes.QuizObjetivoErradicarPobreza"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PaginasIniciaisDosQuizzes.MostraPontuacaoQuizErradicarPobreza"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Quizzes.QuizVerdadeiroFalsoMonumentos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PaginasIniciaisDosQuizzes.MostraPontuacaoQuizMonumentosFamosos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PaginasIniciaisDosQuizzes.MostraPontuacaoQuizODS"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Quizzes.QuizOds"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditarConta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EsqueceuPassWord"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Registar_se"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BemVindo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
